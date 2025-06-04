@@ -1,0 +1,97 @@
+html{
+  margin: 0;
+  padding: 0;
+}
+.custom-header {
+    background-color: #004D6B;
+}
+
+.custom-header .navbar-nav .nav-link {
+    color: white;
+}
+
+.custom-header .navbar-nav .nav-link:hover {
+    color: #a8d0ff;
+}
+
+.custom-header .navbar-brand,
+.custom-header .navbar-brand span {
+    color: white;
+}
+
+.navbar-toggler {
+    border-color: white;
+}
+
+
+/*HTML Cursos*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+  padding-bottom: 0;
+}
+
+h2, h3 {
+  color: #003366; 
+}
+
+a {
+  text-decoration: none;
+}
+
+.card {
+  border: none;
+  border-radius: 16px;
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+  background-color: #ffffff;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.card-title {
+  color: #003366;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-text {
+  font-size: 0.95rem;
+  color: #555;
+}
+
+.btn-primary {
+  background-color: #cfb53b; /* Dourado */
+  border-color: #cfb53b;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #b89c30;
+  border-color: #b89c30;
+}
+
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 150px;
+  }
+}
+
+/*Ramais*/
+h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}

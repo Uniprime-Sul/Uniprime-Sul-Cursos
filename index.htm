@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Obrigatórios</title>
+    <link rel="icon" href="/image/favicon.png" type="image/png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" th:href="@{/style.css}">
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg custom-header">
+            <div class="container">
+                <!-- Logo -->
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <!--<img th:src="@{/image/LogoSul.png}" alt="Logo" width="50" height="40" class="me-2">-->
+                    <img src="/image/LogoSul (1).png" alt="Logo" width="50" height="40"
+                        class="me-2">
+                    <span>UNIPRIME SUL</span>
+                </a>
+
+                <!-- Botão mobile -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Links -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="/demo/src/main/resources/templates/cursos.html">Cursos Obrigatórios</a>
+                        </li>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container my-5">
+        <h2 class="mb-3 fw-bold">Cursos Obrigatórios Conforme Regulamentação e Educação Continuada</h2>
+        <p class="mb-5">Assim que concluídos os cursos voltados ao seu perfil, os certificados devem ser enviados para o
+            email
+            <strong>franciele.angonese@uniprimesul.com.br</strong>
+        </p>
+
+        <h3 class="mb-4">Cursos para a Diretoria</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/cooperativa.jpg" class="card-img-top"
+                        alt="Cooperativismo">
+                    <div class="card-body">
+                        <h5 class="card-title">Noções sobre Cooperativismo</h5>
+                        <p class="card-text">Origem e evolução histórica do cooperativismo. Panorama do cooperativismo
+                            de crédito no Brasil e no mundo.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://mooc41.escolavirtual.gov.br/course/view.php?id=5975"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/images (1).jpg" class="card-img-top" alt="Curso 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Contabilidade de Cooperativas</h5>
+                        <p class="card-text">Fundamentos contábeis aplicados às cooperativas, normas regulatórias,
+                            demonstrações e papel do Conselho Fiscal segundo a ITG 2004.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/contabilidade-de-cooperativas-para-dirigentes"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/images (2).jpg" class="card-img-top" alt="Curso 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso de Gestão Cooperativista</h5>
+                        <p class="card-text">Desafios e estratégias do processo administrativo.
+                            Participação ativa e fidelização do quadro social.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/gestao-cooperativista"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/images.jpg" class="card-img-top" alt="Curso 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso Gestão de Riscos</h5>
+                        <p class="card-text">Conceitos fundamentais de risco.
+                            Tipos de riscos e ferramentas de mitigação nas cooperativas.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/gestao-de-riscos"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/opinião-cooperativismo-1743540127.jpg"
+                        class="card-img-top" alt="PLD">
+                    <div class="card-body">
+                        <h5 class="card-title">Prevenção à Lavagem de Dinheiro</h5>
+                        <p class="card-text">
+                            Curso essencial para entender o processo de prevenção à lavagem de dinheiro e combate ao
+                            financiamento do terrorismo, com foco no sistema brasileiro e as responsabilidades das
+                            cooperativas.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://www.escolavirtual.gov.br/curso/217" class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mb-4 mt-5">Cursos para o Conselho Fiscal</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/GettyImages-661439214-1024x683.jpg"
+                        class="card-img-top" alt="Cooperativismo">
+                    <div class="card-body">
+                        <h5 class="card-title">Entendendo a Sociedade Cooperativa</h5>
+                        <p class="card-text">História, estrutura, legislação e princípios do cooperativismo, com foco em
+                            sua aplicação prática e funcionamento dos órgãos administrativos.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/entendendo-a-sociedade-cooperativa"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/cooperativa.jpg" class="card-img-top"
+                        alt="Cooperativismo">
+                    <div class="card-body">
+                        <h5 class="card-title">Noções sobre Cooperativismo</h5>
+                        <p class="card-text">Origem e evolução histórica do cooperativismo. Panorama do cooperativismo
+                            de crédito no Brasil e no mundo.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://mooc41.escolavirtual.gov.br/course/view.php?id=5975"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/images (1).jpg" class="card-img-top" alt="Curso 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Contabilidade de Cooperativas</h5>
+                        <p class="card-text">Fundamentos contábeis aplicados às cooperativas, normas regulatórias,
+                            demonstrações e papel do Conselho Fiscal segundo a ITG 2004.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/contabilidade-de-cooperativas-para-dirigentes"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir.jpg" class="card-img-top" alt="Curso 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso de Compliance</h5>
+                        <p class="card-text">Conceitos de compliance e sua aplicação no cooperativismo. Controles
+                            internos, externos, certificações e boas práticas regulatórias.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/compliance" class="btn btn-primary">Acesse o
+                            Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/opinião-cooperativismo-1743540127.jpg"
+                        class="card-img-top" alt="PLD">
+                    <div class="card-body">
+                        <h5 class="card-title">Prevenção à Lavagem de Dinheiro</h5>
+                        <p class="card-text">
+                            Curso essencial para entender o processo de prevenção à lavagem de dinheiro e combate ao
+                            financiamento do terrorismo, com foco no sistema brasileiro e as responsabilidades das
+                            cooperativas.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://www.escolavirtual.gov.br/curso/217" class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h3 class="mb-4 mt-5">Cursos para o Conselho Administrativo</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/cooperativa.jpg" class="card-img-top"
+                        alt="Cooperativismo">
+                    <div class="card-body">
+                        <h5 class="card-title">Noções sobre Cooperativismo</h5>
+                        <p class="card-text">Origem e evolução histórica do cooperativismo. Panorama do cooperativismo
+                            de crédito no Brasil e no mundo.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://mooc41.escolavirtual.gov.br/course/view.php?id=5975"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (1).jpg" class="card-img-top"
+                        alt="Contabilidade">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercado Financeiro de A a Z</h5>
+                        <p class="card-text">
+                            O curso traz como está estruturado nosso sistema financeiro nacional, as principais
+                            políticas econômicas,
+                            as características dos mercados financeiros e quais são os riscos aplicados a ele.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://cursos.anbima.com.br/detalhes-item/61a0e075271d2829b338cabd/Entenda%20o%20mercado%20financeiro"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (2).jpg" class="card-img-top"
+                        alt="Gestão Cooperativista">
+                    <div class="card-body">
+                        <h5 class="card-title">Governança Cooperativa</h5>
+                        <p class="card-text">
+                            Este curso traz os procedimentos que garantem um modelo de direção estratégica
+                            pautado nos valores e princípios cooperativistas.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/governanca-cooperativa-principios-e-boas-praticas"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (3).jpg" class="card-img-top"
+                        alt="Gestão de Riscos">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestão Orientada para Resultados</h5>
+                        <p class="card-text">
+                            Este curso traz como fazer a avaliação de desempenho por meio de indicadores, melhorando a
+                            eficácia do monitoramento
+                            de resultados e do processo decisório da cooperativa
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/gestao-orientada-para-resultados-conselheiros-administrativos"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/opinião-cooperativismo-1743540127.jpg"
+                        class="card-img-top" alt="PLD">
+                    <div class="card-body">
+                        <h5 class="card-title">Prevenção à Lavagem de Dinheiro</h5>
+                        <p class="card-text">
+                            Curso essencial para entender o processo de prevenção à lavagem de dinheiro e combate ao
+                            financiamento do terrorismo, com foco no sistema brasileiro e as responsabilidades das
+                            cooperativas.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://www.escolavirtual.gov.br/curso/217" class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h3 class="mb-4 mt-5">Cursos para os Colaboradores</h3>
+
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (4).jpg" class="card-img-top"
+                        alt="Cooperativismo">
+                    <div class="card-body">
+                        <h5 class="card-title">ESG no Cooperativismo</h5>
+                        <p class="card-text">Aprenda todos os passos para a construção e a implementação da agenda ESG
+                            em uma cooperativa.
+                            Conheça estratégias que mostram como a sustentabilidade e o cooperativismo podem caminhar
+                            juntos</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/esg-no-cooperativismo"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (5).jpg" class="card-img-top"
+                        alt="Curso 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ética nas Cooperativas</h5>
+                        <p class="card-text">Descubra como o tema pode ser discutido nas dimensões individuais e
+                            coletivas,
+                            além de reforçar a importância de se estabelecer um código de ética nas instituições.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/etica-nas-cooperativas"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/images.jpg" class="card-img-top" alt="Curso 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Curso Gestão de Riscos</h5>
+                        <p class="card-text">Conceitos fundamentais de risco.
+                            Tipos de riscos e ferramentas de mitigação nas cooperativas.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/gestao-de-riscos"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (6).jpg" class="card-img-top"
+                        alt="Curso 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Segurança da Informação</h5>
+                        <p class="card-text">Descubra os impactos de incidentes relacionados à informação e
+                            aprenda sobre os pilares da Segurança da Informação e sua política.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://capacita.coop.br/cursos-studion/seguranca-da-informacao"
+                            class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/opinião-cooperativismo-1743540127.jpg"
+                        class="card-img-top" alt="PLD">
+                    <div class="card-body">
+                        <h5 class="card-title">Prevenção à Lavagem de Dinheiro</h5>
+                        <p class="card-text">
+                            Curso essencial para entender o processo de prevenção à lavagem de dinheiro e combate ao
+                            financiamento do terrorismo, com foco no sistema brasileiro e as responsabilidades das
+                            cooperativas.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://www.escolavirtual.gov.br/curso/217" class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+             <!-- Card 6 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (8).jpg"
+                        class="card-img-top" alt="PLD">
+                    <div class="card-body">
+                        <h5 class="card-title">Excelencia no Atendimento ao Cliente</h5>
+                        <p class="card-text">
+                            Eleve o padrão do seu atendimento! Aprenda as melhores técnicas para garantir 
+                            uma ótima experiência de atendimento ao cliente.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://www.capacita.coop.br/cursos-studion/excelencia-no-atendimento-ao-cliente" class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 7 -->
+            <div class="col">
+                <div class="card h-100 shadow-sm">
+                    <img src="/image/transferir (7).jpg"
+                        class="card-img-top" alt="PLD">
+                    <div class="card-body">
+                        <h5 class="card-title">Gestão do Atendimento a Clientes</h5>
+                        <p class="card-text">
+                            Faça do atendimento ao cliente um diferencial competitivo da sua cooperativa no mercado! 
+                            Domine teorias, práticas e ferramentas que vão elevar o seu atendimento a outro patamar.
+                        </p>
+                    </div>
+                    <div class="card-footer bg-transparent border-0 text-center">
+                        <a href="https://www.capacita.coop.br/cursos-studion/gestao-do-atendimento-a-clientes" class="btn btn-primary">Acesse o Curso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <footer class="bg-dark text-white text-center py-3">
+        <p class="mb-0">&copy; 2025 Uniprime Sul - Todos os direitos reservados</p>
+    </footer>
+</body>
+
+</html>
