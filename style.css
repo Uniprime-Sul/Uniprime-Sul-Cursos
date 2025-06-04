@@ -90,6 +90,17 @@ a {
   }
 }
 
+.titulo-destaque {
+  background-color: #004D6B;  /* Azul Bootstrap */
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.3rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  margin-top: 2rem;
+}
 /*Ramais*/
 h2 {
   font-weight: bold;
